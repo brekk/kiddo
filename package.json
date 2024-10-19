@@ -6,7 +6,7 @@
   "type": "module",
   "repository": "https://github.com/brekk/kiddo",
   "author": "brekk",
-  "license": "ISC",
+  "license": "MIT",
   "exports": {
     ".": "./kiddo.js"
   },
