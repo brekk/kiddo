@@ -4,11 +4,14 @@
   "description": "child processes in the future 👶",
   "main": "kiddo.js",
   "type": "module",
-  "repository": "kiddo",
+  "repository": "https://github.com/brekk/kiddo",
   "author": "brekk",
   "license": "ISC",
   "exports": {
     ".": "./kiddo.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "envtrace": "0.0.2",
